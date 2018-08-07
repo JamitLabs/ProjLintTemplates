@@ -349,7 +349,7 @@ custom_rules:
     included: ".*.swift"
     regex: 'print\([^\n]+\)'
     name: "SwiftyBeaver Logging"
-    message: "Don't use print – use log.verbose/debug/info/warning/error instead."
+    message: "Don't use print – use log.verbose/debug/info/warning/error instead."
     severity: warning
   switch_associated_value_style:
     included: ".*.swift"
