@@ -136,7 +136,7 @@ rules:
         - .gitignore
         - .swiftlint.yml
         - README.md
-        - LICENSE.md
+        - LICENSE
         - Cartfile
         - Cartfile.private
         - Cartfile.ignore
