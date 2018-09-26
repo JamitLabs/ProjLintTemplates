@@ -28,12 +28,10 @@ rules:
   - xcode_project_navigator:
       project_path: <:project_name:>.xcodeproj
       sorted:
-        - Framework
-            - Sources
-            - SupportingFiles
-        - Tests
-            - Sources
-            - SupportingFiles
+        - Framework/Sources
+        - Framework/SupportingFiles
+        - Tests/Sources
+        - Tests/SupportingFiles
       inner_group_order:
         - assets
         - entitlements
