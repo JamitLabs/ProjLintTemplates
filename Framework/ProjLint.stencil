@@ -41,12 +41,12 @@ rules:
         - [code_files, interfaces]
         - folders
       structure:
-        - Framework:
-            - Sources
+        - Frameworks:
+            - <:project_name:>
             - SupportingFiles:
                 - Info.plist
         - Tests:
-            - Sources
+            - <:project_name:>Tests
             - SupportingFiles:
                 - Info.plist
         - RootFiles:
