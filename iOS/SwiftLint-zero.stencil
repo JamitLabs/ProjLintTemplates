@@ -62,6 +62,7 @@ opt_in_rules:
 
 disabled_rules:
 - force_cast
+- nesting
 - todo
 - type_name
 
