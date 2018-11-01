@@ -114,12 +114,6 @@ custom_rules:
     name: "Closing Brace Whitespace"
     message: "Empty line required after closing curly braces if code with same indentation follows."
     severity: warning
-  closure_params_parantheses:
-    included: ".*.swift"
-    regex: '\{\s*\([^):]+\)\s*in'
-    name: "Unnecessary Closure Params Parantheses"
-    message: "Don't use parantheses around non-typed parameters in a closure."
-    severity: warning
   comment_type_note:
     included: ".*.swift"
     regex: '// *(?:WORKAROUND|HACK|WARNING)[:\\s]'
