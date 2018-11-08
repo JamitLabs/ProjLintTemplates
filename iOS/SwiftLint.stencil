@@ -116,8 +116,8 @@ type_contents_order:
     - initializer
     - type_method
     - view_life_cycle_method
-    - ib_action
     - other_method
+    - ib_action
     - subscript
 
 # Custom Rules
