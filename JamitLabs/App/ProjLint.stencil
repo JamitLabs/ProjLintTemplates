@@ -75,7 +75,7 @@ rules:
                 - Info.plist
                 - InfoPlist.strings
             - Generated:
-                - SwiftGen
+                - SwiftGen:
                     - Assets.swift
                     - Storyboards.swift
                     - Strings.swift
