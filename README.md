@@ -21,7 +21,7 @@ In your `.projlint.yml` add a new `file_content_template` section:
   - file_content_template:
       matching:
         .swiftlint.yml:
-          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/Community/iOS/SwiftLint.stencil"
+          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/Community/App/ProjLint.stencil"
           parameters:
             rightholder: "Jamit Labs GmbH"
 ```
@@ -39,11 +39,11 @@ rules:
   - file_content_template:
       matching:
         .swiftlint.yml:
-          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/iOS/SwiftLint.stencil"
+          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/JamitLabs/App/SwiftLint.stencil"
           parameters:
             rightholder: <:rightholder:>
         .projlint.yml:
-          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/iOS/ProjLint.stencil"
+          template_url: "https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/JamitLabs/App/ProjLint.stencil"
           parameters:
             rightholder: <:rightholder:>
             project_name: <:project_name:>
