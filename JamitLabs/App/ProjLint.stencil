@@ -46,17 +46,10 @@ rules:
         - Tests/Sources
         - Tests/Resources
         - Tests/SupportingFiles
-        - UITests/Sources/
+        - UITests/Sources
         - UITests/Resources
         - UITests/SupportingFiles
-      inner_group_order:
-        - assets
-        - entitlements
-        - plists
-        - strings
-        - others
-        - [code_files, interfaces]
-        - folders
+      inner_group_order: []
       structure:
         - App:
             - Sources:
