@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/stable/Logo.png"
+    <img src="https://raw.githubusercontent.com/JamitLabs/ProjLintTemplates/master/Logo.png"
       width=600>
 </p>
 
